@@ -95,3 +95,34 @@ h1{
     font-family: Caveat;
     
 }
+
+.aboutme{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+
+}
+
+.aboutme img{
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-intro {
+    grid-column: 5/10;
+    padding: 100px;
+}
+
+.about-intro h2{
+    font-size: 35px;
+}
+
+.about-intro span{
+    color: #F2B705;
+    font-family: Caveat;
+}
+
+.divisor {
+    margin-top: 30px;
+}
