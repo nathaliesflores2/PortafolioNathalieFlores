@@ -7,21 +7,23 @@
     <title>AboutNathalie</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/e7690f1b29.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+
+<!--Pantalla de inicio-->
 <div class ="wrapper">
+    <section class="perfil" id="perfil">
     <header>
         <nav class="navbar">
             <div class="brand">
                 <h2>PORTA<span>FO</span>LIO</h2>
             </div>
             <ul class="menu">
-                <li><a class ="lista" href="#"> Inicio</a></li>
-                <li><a class ="lista" href="#">About me</a></li>
-                <li><a class ="lista" href="#">Projects</a></li>
-                <li><a class ="lista" href="#">Contacto</a></li>
+                <li><a class ="lista" href="#perfil"> Inicio</a></li>
+                <li><a class ="lista" href="#aboutme">About me</a></li>
+                <li><a class ="lista" href="#myprojects">Projects</a></li>
+                <li><a class ="lista" href="#contacto">Contacto</a></li>
 
             </ul>
         </nav>
@@ -37,7 +39,10 @@
     </main>
 
 </div>
+</section>
 
+<!--Pantalla de aboutme-->
+<section class="aboutme" id="aboutme">
 <div class="aboutme">
     <img class="img" src="./img/portafolio2.jpeg" alt="">
 
@@ -49,12 +54,17 @@
             Mi nombre es Nathalie Sofía Flores Delgado, una persona proactiva que le gusta desafiarse constantemente. La perseverancia es una de mis principales fortalezas, ya que a pesar de cualquier obstáculo he logrado salir adelante. Cabe destacar que soy una persona muy optimista; siempre busco la manera de observar cada situación como una oportunidad de crecimiento.
         </p>
         <p>
-            Algunas de mis habilidades son: flexibilidad y adaptación a diversas situaciones, capacidad de trabajo equipo y liderazgo.
+            Algunas de mis habilidades son: flexibilidad y adaptación a diversas situaciones, capacidad de trabajo en equipo y liderazgo.
         </p>
     </div>
 
 </div>
 
+</section>
+
+
+<!--Pantalla de trabajos-->
+<section class="myprojects" id="myprojects">
 <div class="trabajos">
     <div class="proyectos">
         <h2>
@@ -68,8 +78,8 @@
             <div class="img-bloque"></div>
             <div class="titulo">
                 <h2>Rediseñar la experiencia del recorrido del Museo Tin Marín</h2>
-                <p>El trabajo consistió en adentrarse a la experiencia de usuario desde el momento antes, durante y después del recorrido dentro del museo. El proyecto se llevó a cabo a lo largo de 6 semanas. </p>
-                <p>En un primer momento, el equipo recopiló la información necesaria para conocer cómo se llevaba a cabo esta experiencia luego de la pandemia y antes de esta. Luego, se realizó un estudio de los dolores de los usuarios y se concluyó una serie de posibles mejoras.</p>
+                <p>El trabajo consistió en adentrarse a la experiencia del usuario desde el momento antes, durante y después del recorrido dentro del museo. El proyecto se llevó a cabo a lo largo de 6 semanas. </p>
+                <p>En un primer momento, el equipo recopiló la información necesaria para conocer cómo se llevaba a cabo esta experiencia antes de la pandemia y luego de esta. Además, se realizó un estudio de los dolores de los usuarios y se concluyó una serie de posibles mejoras.</p>
             </div>
 
         </div>
@@ -95,33 +105,44 @@
         </div>
     </div>
 </div>
+</section>
 
-
+<!--Footer-->
+<section class="contacto" id="contacto">
 <footer>
+    <center>
     <div class="footer">
         <div class="contenido">
-            <h2>Contacto</h2>
+            <h2>CONTACTO</h2>
 
             <div class="info">
+                <div class="email">
+                    <h3>Email</h3>
+                    <p>20204007@esen.edu.sv</p>
+                    <p>nathaliesflores2@gmail.com</p>
+                </div>
                 
-                <h3 >Email</h3>
-                <p>20204007@esen.edu.sv</p>
-                <p>nathaliesflores2@gmail.com</p>
+                <div class="link">
+                    <h3>Link de Github</h3>
+                    <a class ="link" href="https://github.com/nathaliesflores2" target="_blank">Click para abrir la página</a>
+                </div>
 
-                <h3>Link de Github</h3>
-                <a class ="link" href="https://github.com/nathaliesflores2" target="_blank">Click para abrir la página</a>
-
-                <h3>Número de teléfono</h3>
-                <p>7746-9678</p>
+                <div class="number">
+                    <h3>Número de teléfono</h3>
+                    <p>7746-9678</p>
+                </div>
             </div>
            
     
         </div>
     </div>
-    <div class="web">
-
-    </div>
+    </center>
 </footer>
+
+
+
+</section>
+
 
 
 
