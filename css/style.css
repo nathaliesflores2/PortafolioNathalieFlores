@@ -187,14 +187,8 @@ h1{
     margin: 2em;
 }
 
-.img-bloque{
-    width: 100%;
-    height: 150px;
-    background-size: cover;
 
-}
-
-.img-bloque .img {
+.bloque .img {
     width: 100%;
     height: 150px;
     background-size: cover;
