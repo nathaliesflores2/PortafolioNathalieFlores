@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display:ital,wght@0,400;0,500;1,600&family=Righteous&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Josefin+Sans&family=Playfair+Display:ital,wght@0,400;0,500;1,600&family=Righteous&family=Satisfy&display=swap');
+
 
 * {
   margin: 0;
@@ -47,8 +50,11 @@ body {
 
 .menu .lista{
 color:#F2B705;
+font-weight: bold;
 
 }
+
+
 
 
 .menu a:hover {
@@ -60,4 +66,32 @@ color:#F2B705;
 .brand {
     margin-top: -5px;
 
+}
+
+.intro {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.intro img {
+    height: 400px;
+    width: 300px;
+    border:  #F2B705 solid;
+    
+}
+
+
+h1{
+    font-size: 3em;
+    
+}
+
+.intro span{
+    color: #F2B705;
+    font-family: Caveat;
+    
 }
