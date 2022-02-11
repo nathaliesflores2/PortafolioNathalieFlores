@@ -210,3 +210,23 @@ h1{
     background-size: cover;
 
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2B705;
+
+}
+
+.info .link {
+    text-decoration: none;
+    color: black;
+   
+}
+
